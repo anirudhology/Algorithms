@@ -1,4 +1,4 @@
-package com.anirudhology.systemdesign;
+package com.anirudhology.systemdesign.hashing;
 
 import java.util.Map;
 import java.util.TreeMap;

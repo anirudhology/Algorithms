@@ -1,4 +1,4 @@
-package com.anirudhology.systemdesign;
+package com.anirudhology.systemdesign.bloomfilter;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

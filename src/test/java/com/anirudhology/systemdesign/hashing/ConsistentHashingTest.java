@@ -1,4 +1,4 @@
-package com.anirudhology.systemdesign;
+package com.anirudhology.systemdesign.hashing;
 
 import org.junit.jupiter.api.Test;
 

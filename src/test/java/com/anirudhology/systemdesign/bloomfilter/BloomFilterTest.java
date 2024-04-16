@@ -1,4 +1,4 @@
-package com.anirudhology.systemdesign;
+package com.anirudhology.systemdesign.bloomfilter;
 
 import org.junit.jupiter.api.Test;
 
