@@ -22,7 +22,7 @@ public class LeakyBucket {
         this.lastLeakTime = Instant.now();
     }
 
-    public boolean acceptRequest() {
+    public synchronized boolean acceptRequest() {
         // Calculate the number of tokens to leak since the last request
         long elapsedSeconds = Duration.between(lastLeakTime, Instant.now()).getSeconds();
         int tokensToLeak = (int) (elapsedSeconds * leakRate);
